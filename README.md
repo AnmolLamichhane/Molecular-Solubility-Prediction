@@ -32,8 +32,8 @@ The goal is to predict the **logarithm of solubility (LogS)** from molecular des
 
 | Model                | Training MSE | Training R² | Test MSE | Test R² |
 |----------------------|--------------|-------------|----------|---------|
-| **Linear Regression** | 0.5751       | 0.8423      | 0.6573   | 0.8167  |
-| **Random Forest**     | 0.1418       | 0.9669      | 0.4346   | 0.8764  |
+| **Linear Regression** | 1.007536     | 0.764505      | 1.020695   | 0.789162  |
+| **Random Forest**     | 0.124508     | 0.970898      | 0.652047   | 0.865311  |
 
 **Key Insight:**
 - The **Random Forest Regressor** significantly outperforms Linear Regression on both training and testing data as depth is 10.
